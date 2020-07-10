@@ -1,0 +1,166 @@
+/* body */
+body {
+    margin: 0;
+    padding-bottom: 75px;
+    min-height: 100vh;
+}
+
+/* header */
+
+
+/* main container */
+#main-container {
+    width: 55%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px 40px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.la-note {
+    height: 550px;
+    background-color: rgb(247, 224, 220);
+    text-align: center;
+    box-shadow: 0px 0px 13px grey;
+}
+.la-note img {
+    width: 45px;
+}
+.la-note .menu-content a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+
+}
+.la-note .menu-content h2 {
+    font-size: 25px;
+}
+.la-note .menu-content p span {
+    font-size: 27px;
+    text-transform: uppercase;
+    font-style: italic;
+    
+}
+
+.le-chic {
+    height: 550px;
+    background-color: rgb(253, 245, 253);
+    box-shadow: 0px 0px 13px grey;
+}
+.le-chic .menu-content a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.le-chic h2 {
+    font-size: 25px;
+}
+.le-chic p span {
+    font-size: 27px;
+}
+
+.le-delice {
+    height: 550px;
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 0px 13px grey;
+}
+.le-delice .menu-content a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.le-delice h2 {
+    font-size: 25px;
+}
+.le-delice p span {
+    font-size: 27px;
+}
+
+.la-palette {
+    height: 550px;
+    background-color: rgb(253, 255, 253);
+    box-shadow: 0px 0px 13px grey;
+}
+.la-palette .menu-content a {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.la-palette .menu-content h2 {
+    font-size: 25px;
+}
+.la-palette .menu-content p span {
+    font-size: 27px;
+}
+
+.menu-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+.la-note .menu-content h2 {
+    color: #000;
+}
+.la-note .menu-content h3 {
+    
+}
+
+.le-chic .menu-content h2 {
+    color: #000;
+}
+.le-chic .menu-content h3 {
+    
+}
+
+.le-delice .menu-content h2 {
+    color: #000;
+}
+.le-delice .menu-content h3 {
+    
+}
+
+.la-palette .menu-content h2 {
+    color: #000;
+}
+.le-palette .menu-content h3 {
+    
+}
+
+
+/* button */
+
+.button {
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+
+button {
+    padding: 7px 45px;
+    border-radius: 7px;
+    border: none;
+    font-size: 25px;
+    color: rgb(245, 203, 95);
+    background-color: rgb(103, 154, 136);
+}
+
+/* footer */
