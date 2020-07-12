@@ -186,6 +186,7 @@ button {
 
 @media screen and (max-width: 767px) {
      #main-container {
+         width: 90%;
         display: grid;
         grid-template-columns: 100%;
      }
