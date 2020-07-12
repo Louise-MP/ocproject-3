@@ -17,15 +17,18 @@ body {
     margin: auto;
     margin-bottom: 40px;
 }
+
 .la-note {
     height: 550px;
     background-color: rgb(247, 224, 220);
     text-align: center;
     box-shadow: 0px 0px 13px grey;
 }
+
 .la-note img {
     width: 45px;
 }
+
 .la-note .menu-content a {
     display: flex;
     height: 100%;
@@ -34,16 +37,17 @@ body {
     align-items: center;
     justify-content: center;
     text-decoration: none;
-
 }
+
 .la-note .menu-content h2 {
     font-size: 25px;
+    text-align: center;
 }
+
 .la-note .menu-content p span {
     font-size: 27px;
     text-transform: uppercase;
-    font-style: italic;
-    
+    font-style: italic;   
 }
 
 .le-chic {
@@ -51,6 +55,7 @@ body {
     background-color: rgb(253, 245, 253);
     box-shadow: 0px 0px 13px grey;
 }
+
 .le-chic .menu-content a {
     display: flex;
     height: 100%;
@@ -60,9 +65,11 @@ body {
     justify-content: center;
     text-decoration: none;
 }
+
 .le-chic h2 {
     font-size: 25px;
 }
+
 .le-chic p span {
     font-size: 27px;
 }
@@ -72,6 +79,7 @@ body {
     background-color: rgb(249, 249, 249);
     box-shadow: 0px 0px 13px grey;
 }
+
 .le-delice .menu-content a {
     display: flex;
     height: 100%;
@@ -81,9 +89,11 @@ body {
     justify-content: center;
     text-decoration: none;
 }
+
 .le-delice h2 {
     font-size: 25px;
 }
+
 .le-delice p span {
     font-size: 27px;
 }
@@ -93,6 +103,7 @@ body {
     background-color: rgb(253, 255, 253);
     box-shadow: 0px 0px 13px grey;
 }
+
 .la-palette .menu-content a {
     display: flex;
     height: 100%;
@@ -102,9 +113,11 @@ body {
     justify-content: center;
     text-decoration: none;
 }
+
 .la-palette .menu-content h2 {
     font-size: 25px;
 }
+
 .la-palette .menu-content p span {
     font-size: 27px;
 }
@@ -117,34 +130,41 @@ body {
     height: 100%;
     justify-content: center;
 }
+
 .la-note .menu-content h2 {
     color: #000;
+    text-align: center;
 }
+
 .la-note .menu-content h3 {
-    
+    text-align: center;
 }
 
 .le-chic .menu-content h2 {
     color: #000;
+    text-align: center;
 }
+
 .le-chic .menu-content h3 {
-    
+    text-align: center;
 }
 
 .le-delice .menu-content h2 {
     color: #000;
+    text-align: center;
 }
 .le-delice .menu-content h3 {
-    
+    text-align: center;
 }
 
 .la-palette .menu-content h2 {
     color: #000;
-}
-.le-palette .menu-content h3 {
-    
+    text-align: center;
 }
 
+.le-palette .menu-content h3 {
+    text-align: center;
+}
 
 /* button */
 
@@ -152,7 +172,6 @@ body {
     margin-bottom: 37px;
     text-align: center;
 }
-
 
 button {
     padding: 7px 45px;

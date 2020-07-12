@@ -8,6 +8,7 @@ body {
 .main-title {
     text-align: center;
 }
+
 .main-title h1 {
     font-family: 'lato', sans-serif;
 }
@@ -25,9 +26,11 @@ body {
 .title {
     text-align: center;
 }
+
 .title h2 {
     font-family: 'Lobster', cursive;;
 }
+
 .title img {
     width: 47px;
 }
@@ -35,6 +38,7 @@ body {
 .prelude {
     font-family: 'Nunito', sans-serif;
 }
+
 .prelude-title {
     text-align: center;
     display: flex;
@@ -43,12 +47,15 @@ body {
     width: 78%;
     margin: auto;
 }
+
 .prelude-title .band2 {
     transform: scaleX(-1);
 }
+
 .prelude-content {
     width: 88%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 80% 20%;
     justify-content: space-around;
     margin: auto;
 }
@@ -56,6 +63,7 @@ body {
 .orgue {
     font-family: 'Nunito', sans-serif;
 }
+
 .orgue-title {
     text-align: center;
     display: flex;
@@ -68,6 +76,7 @@ body {
 .orgue-title .band2 {
     transform: scaleX(-1);
 }
+
 .orgue-content {
     width: 89%;
     display: flex;
@@ -78,6 +87,7 @@ body {
 .mouvement {
     font-family: 'Nunito', sans-serif;
 }
+
 .mouvement-title {
     text-align: center;
     display: flex;
@@ -86,6 +96,7 @@ body {
     width: 74%;
     margin: auto;
 }
+
 .mouvement-content {
     width: 71%;
     margin: auto;
