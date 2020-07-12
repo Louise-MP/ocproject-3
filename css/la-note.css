@@ -78,8 +78,9 @@ body {
 }
 
 .orgue-content {
-    width: 89%;
-    display: flex;
+    width: 86%;
+    display: grid;
+    grid-template-columns: 72% 7%;
     justify-content: space-around;
     margin: auto;
 }
