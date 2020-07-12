@@ -183,3 +183,10 @@ button {
 }
 
 /* footer */
+
+@media screen and (max-width: 767px) {
+     #main-container {
+        display: grid;
+        grid-template-columns: 100%;
+     }
+}
