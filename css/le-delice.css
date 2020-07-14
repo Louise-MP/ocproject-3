@@ -124,6 +124,10 @@ body {
         width: 95%;
     }
 
+    .title h2 {
+        font-size: 33px;
+    }
+
     .commencer-title {
         width: 96%;
     }
@@ -162,5 +166,43 @@ body {
     .terminer-content {
         font-size: 17px;
         grid-template-columns: 94% 7%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .commencer-title {
+        width: 95%;
+    }
+
+    .commencer-title img {
+        width: 200px;
+    }
+
+    .commencer-content {
+        width: 100%;
+    }
+
+    .continuer-title {
+        width: 95%;
+    }
+
+    .continuer-title img {
+        width: 200px;
+    }
+
+    .continuer-content {
+        width: 100%;
+    }
+
+    .terminer-title {
+        width: 95%;
+    }
+
+    .terminer-title img {
+        width: 200px;
+    }
+
+    .terminer-content {
+        width: 100%;
     }
 }

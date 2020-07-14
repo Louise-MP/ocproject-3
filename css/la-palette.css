@@ -128,6 +128,10 @@ body {
         width: 95%;
     }
 
+    .title h2 {
+        font-size: 33px;
+    }
+
     .esquisse-title {
         width: 96%;
     }
@@ -165,5 +169,43 @@ body {
     .sommet-content {
         font-size: 17px;
         grid-template-columns: 94% 7%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .esquisse-title {
+        width: 95%;
+    }
+
+    .esquisse-title img {
+        width: 200px;
+    }
+
+    .esquisse-content {
+        width: 100%;
+    }
+
+    .oeuvre-title {
+        width: 95%;
+    }
+
+    .oeuvre-title img {
+        width: 200px;
+    }
+
+    .oeuvre-content {
+        width: 100%;
+    }
+
+    .sommet-title {
+        width: 95%;
+    }
+
+    .sommet-title img {
+        width: 200px;
+    }
+
+    .sommet-content {
+        width: 100%;
     }
 }

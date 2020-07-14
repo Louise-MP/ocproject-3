@@ -150,3 +150,41 @@ body {
         font-size: 17px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .appetit-title {
+        width: 100%;
+    }
+
+    .appetit-title img {
+        width: 200px;
+    }
+
+    .appetit-content {
+        width: 100%;
+    }
+
+    .plaisir-title {
+        width: 100%;
+    }
+
+    .plaisir-title img {
+        width: 200px;
+    }
+
+    .plaisir-content {
+        width: 100%;
+    }
+
+    .gourmandise-title {
+        width: 100%;
+    }
+
+    .gourmandise-title img {
+        width: 200px;
+    }
+
+    .gourmandise-content {
+        width: 78%;
+    }
+}

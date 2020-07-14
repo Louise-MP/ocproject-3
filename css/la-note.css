@@ -39,10 +39,6 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.prelude-title img {
-
-}
-
 .prelude-title {
     text-align: center;
     display: flex;
@@ -171,5 +167,43 @@ body {
 
     .mouvement-content {
         font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .prelude-title {
+        width: 100%;
+    }
+
+    .prelude-title img {
+        width: 200px;
+    }
+
+    .prelude-content {
+        width: 100%;
+    }
+
+    .orgue-title {
+        width: 100%;
+    }
+
+    .orgue-title img {
+        width: 200px;
+    }
+
+    .orgue-content {
+        width: 100%;
+    }
+
+    .mouvement-title {
+        width: 100%;
+    }
+
+    .mouvement-title img {
+        width: 200px;
+    }
+
+    .mouvement-content {
+        width: 90%
     }
 }
