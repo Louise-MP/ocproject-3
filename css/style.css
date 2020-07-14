@@ -92,6 +92,7 @@ body {
 
 .le-delice h2 {
     font-size: 25px;
+    
 }
 
 .le-delice p span {
@@ -134,10 +135,15 @@ body {
 .la-note .menu-content h2 {
     color: #000;
     text-align: center;
+    font-family: 'Lobster', cursive;
 }
 
 .la-note .menu-content h3 {
+    font-family: 'Nunito', sans-serif;
     text-align: center;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #000;
 }
 
 .le-chic .menu-content h2 {
@@ -152,18 +158,27 @@ body {
 .le-delice .menu-content h2 {
     color: #000;
     text-align: center;
+    font-family: 'Dancing Script', cursive;
 }
 .le-delice .menu-content h3 {
     text-align: center;
+    font-family: 'Kalam', cursive;
+    color: #000;
+
 }
 
 .la-palette .menu-content h2 {
     color: #000;
     text-align: center;
+    font-family: 'Rancho', cursive;
+    font-style: italic;
+
 }
 
-.le-palette .menu-content h3 {
+.la-palette .menu-content h3 {
     text-align: center;
+    font-family: 'Kalam', cursive;
+    color: #000;
 }
 
 /* button */
