@@ -46,11 +46,12 @@ body {
     transform: scaleX(-1);
 }
 .appetit-content {
-    width: 54%;
-    display: flex;
-    justify-content: space-between;
+    width: 86%;
+    display: grid;
+    grid-template-columns: 72% 7%;
     margin: auto;
     color: rgb(187, 119, 48);
+    justify-content: center;
 }
 
 .plaisir-title {
@@ -69,9 +70,10 @@ body {
     transform: scaleX(-1);
 }
 .plaisir-content {
-    width: 54%;
-    display: flex;
-    justify-content: space-between;
+    width: 86%;
+    display: grid;
+    grid-template-columns: 72% 7%;
+    justify-content: center;
     margin: auto;
     color: rgb(156, 107, 150);
 }
@@ -93,7 +95,7 @@ body {
     transform: scaleX(-1);
 }
 .gourmandise-content {
-    width: 54%;
+    width: 68%;
     margin: auto;
     color: rgb(104, 82, 196);
 }

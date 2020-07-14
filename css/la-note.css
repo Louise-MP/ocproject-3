@@ -58,6 +58,7 @@ body {
     grid-template-columns: 72% 7%;
     justify-content: space-around;
     margin: auto;
+    font-family: 'Nunito', sans-serif;
 }
 
 .orgue {
@@ -83,6 +84,7 @@ body {
     grid-template-columns: 72% 7%;
     justify-content: space-around;
     margin: auto;
+    font-family: 'Nunito', sans-serif;
 }
 
 .mouvement {
@@ -92,15 +94,18 @@ body {
 .mouvement-title {
     text-align: center;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 74%;
     margin: auto;
 }
 
 .mouvement-content {
-    width: 77%;
+    width: 76%;
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: space-around;
     margin: auto;
+    font-family: 'Nunito', sans-serif;
 }
 
 .down-title {

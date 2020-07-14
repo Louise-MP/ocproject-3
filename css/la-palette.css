@@ -44,10 +44,11 @@ body {
 }
 .esquisse-content {
     width: 65%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
     margin: auto;
     color: rgb(23, 23, 23);
+    grid-template-columns: 72% 7%;
 }
 
 .oeuvre-title {
@@ -67,10 +68,11 @@ body {
 }
 .oeuvre-content {
     width: 65%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
     margin: auto;
     color: rgb(23, 23, 23);
+    grid-template-columns: 72% 7%;
 }
 
 .sommet-title {
@@ -90,8 +92,9 @@ body {
 }
 .sommet-content {
     width: 65%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    justify-content: center;
     margin: auto;
     color: rgb(23, 23, 23);
+    grid-template-columns: 72% 7%;
 }
