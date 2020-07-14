@@ -99,3 +99,54 @@ body {
     margin: auto;
     color: rgb(104, 82, 196);
 }
+
+@media screen and (max-width: 767px) {
+    .main-title {
+        margin-bottom: 30px;
+    }
+
+    .main-title h1 {
+        font-size: 30px;
+    }
+
+    .main-container {
+        width: 95%;
+    }
+
+    .appetit-title {
+        width: 100%;
+    }
+
+    .appetit-title img {
+        width: 100px;
+        height: 8px;
+    }
+
+    .appetit-content {
+        font-size: 17px;
+    }
+
+    .plaisir-title {
+        width: 100%;
+    }
+
+    .plaisir-title img {
+        width: 100px;
+    }
+
+    .plaisir-content {
+        font-size: 17px;
+    }
+
+    .gourmandise-title {
+        width: 100%;
+    }
+
+    .gourmandise-title img {
+        width: 100px;
+    }
+
+    .gourmandise-content {
+        font-size: 17px;
+    }
+}

@@ -1,4 +1,6 @@
 .mentions-title {
     text-align: center;
-    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(103, 154, 136);
 }

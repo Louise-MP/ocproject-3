@@ -39,6 +39,10 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.prelude-title img {
+
+}
+
 .prelude-title {
     text-align: center;
     display: flex;
@@ -94,8 +98,9 @@ body {
 .mouvement-title {
     text-align: center;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    width: 74%;
+    width: 75%;
     margin: auto;
 }
 
@@ -117,4 +122,54 @@ body {
 .down-title img {
     width: 30px;
     padding: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .main-title {
+        margin-bottom: 30px;
+    }
+
+    .main-title h1 {
+        font-size: 30px;
+    }
+
+    .main-container {
+        width: 95%;
+    }
+
+    .prelude-title {
+        width: 100%;
+    }
+
+    .prelude-title img {
+        width: 100px;
+    }
+
+    .prelude-content {
+        font-size: 17px;
+    }
+
+    .orgue-title {
+        width: 100%;
+    }
+
+    .orgue-title img {
+        width: 100px;
+    }
+
+    .orgue-content {
+        font-size: 17px;
+    }
+
+    .mouvement-title {
+        width: 100%;
+    }
+
+    .mouvement-title img {
+        width: 100px;
+    }
+
+    .mouvement-content {
+        font-size: 17px;
+    }
 }

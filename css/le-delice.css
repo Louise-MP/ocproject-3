@@ -26,6 +26,8 @@ body {
 
 .title h2 {
     color: rgb(28, 99, 229);
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
 }
 
 .commencer-title {
@@ -36,6 +38,8 @@ body {
     align-items: center;
     color: rgb(23, 23, 23);
     margin: auto;
+    font-family: 'Nunito', sans-serif;
+
 }
 .commencer-title .band2 {
     transform: scaleX(-1);
@@ -50,6 +54,7 @@ body {
     color: rgb(23, 23, 23);
     grid-template-columns: 72% 7%;
     justify-content: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 .continuer-title {
@@ -60,6 +65,8 @@ body {
     justify-content: space-around;
     align-items: center;
     color: rgb(23, 23, 23);
+    font-family: 'Nunito', sans-serif;
+
 }
 .continuer-title img {
     height: 13px;
@@ -74,6 +81,7 @@ body {
     color: rgb(23, 23, 23);
     grid-template-columns: 72% 7%;
     justify-content: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 .terminer-title {
@@ -84,6 +92,8 @@ body {
     justify-content: space-around;
     align-items: center;
     color: rgb(23, 23, 23);
+    font-family: 'Nunito', sans-serif;
+
 }
 .terminer-title img {
     height: 13px;
@@ -98,4 +108,59 @@ body {
     color: rgb(23, 23, 23);
     justify-content: center;
     grid-template-columns: 72% 7%;
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 767px) {
+    .main-title {
+        margin-bottom: 30px;
+    }
+
+    .main-title h1 {
+        font-size: 30px;
+    }
+
+    .main-container {
+        width: 95%;
+    }
+
+    .commencer-title {
+        width: 96%;
+    }
+
+    .commencer-title img {
+        width: 100px;
+        height: 8px;
+    }
+
+    .commencer-content {
+        font-size: 17px;
+        grid-template-columns: 94% 7%;
+    }
+
+    .continuer-title {
+        width: 96%;
+    }
+
+    .continuer-title img {
+        width: 100px;
+    }
+
+    .continuer-content {
+        font-size: 17px;
+        grid-template-columns: 94% 7%;
+    }
+
+    .terminer-title {
+        width: 96%;
+    }
+
+    .terminer-title img {
+        width: 100px;
+    }
+
+    .terminer-content {
+        font-size: 17px;
+        grid-template-columns: 94% 7%;
+    }
 }
