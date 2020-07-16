@@ -39,14 +39,16 @@ body {
     color: rgb(23, 23, 23);
     margin: auto;
     font-family: 'Nunito', sans-serif;
-
 }
+
 .commencer-title .band2 {
     transform: scaleX(-1);
 }
+
 .commencer-title img {
     height: 13px;
 }
+
 .commencer-content {
     width: 86%;
     display: grid;
@@ -68,12 +70,15 @@ body {
     font-family: 'Nunito', sans-serif;
 
 }
+
 .continuer-title img {
     height: 13px;
 }
+
 .continuer-title .band2 {
     transform: scaleX(-1);
 }
+
 .continuer-content {
     width: 86%;
     display: grid;
@@ -95,12 +100,15 @@ body {
     font-family: 'Nunito', sans-serif;
 
 }
+
 .terminer-title img {
     height: 13px;
 }
+
 .terminer-title .band2 {
     transform: scaleX(-1);
 }
+
 .terminer-content {
     width: 86%;
     display: grid;

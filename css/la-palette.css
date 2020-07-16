@@ -39,14 +39,16 @@ body {
     width: 95%;
     margin: auto;
     font-family: 'Nunito', sans-serif;
-
 }
+
 .esquisse-title img {
     height: 13px;
 }
+
 .esquisse-title .band2 {
     transform: scaleX(-1);
 }
+
 .esquisse-content {
     width: 65%;
     display: grid;
@@ -55,7 +57,6 @@ body {
     color: rgb(23, 23, 23);
     grid-template-columns: 72% 7%;
     font-family: 'Nunito', sans-serif;
-
 }
 
 .oeuvre-title {
@@ -69,12 +70,15 @@ body {
     font-family: 'Nunito', sans-serif;
 
 }
+
 .oeuvre-title img {
     height: 13px;
 }
+
 .oeuvre-title .band2 {
     transform: scaleX(-1);
 }
+
 .oeuvre-content {
     width: 65%;
     display: grid;
@@ -83,7 +87,6 @@ body {
     color: rgb(23, 23, 23);
     grid-template-columns: 72% 7%;
     font-family: 'Nunito', sans-serif;
-
 }
 
 .sommet-title {

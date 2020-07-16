@@ -10,6 +10,7 @@ header {
     justify-content: center;
     background-color: rgb(103, 154, 136);
 }
+
 header a {
     text-decoration: none;
     color: rgb(245, 203, 95);
@@ -24,6 +25,7 @@ header a {
     padding: 1rem;
 
 } 
+
 .search-bar img {
     width: 1.3rem;
 }
@@ -40,6 +42,7 @@ footer {
     font-family: 'Lato', sans-serif;
     text-align: center;
 }
+
 footer a {
     padding: 20px;
     text-decoration: none;

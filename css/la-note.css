@@ -44,7 +44,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 78%;
+    width: 82%;
     margin: auto;
 }
 
@@ -70,8 +70,12 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 75%;
+    width: 82%;
     margin: auto;
+}
+
+.orgue-title img {
+    width: 245px;
 }
 
 .orgue-title .band2 {
@@ -96,8 +100,12 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 75%;
+    width: 82%;
     margin: auto;
+}
+
+.mouvement-title img {
+    width: 245px;
 }
 
 .mouvement-content {
@@ -137,10 +145,6 @@ body {
         width: 100%;
     }
 
-    .prelude-title img {
-        width: 100px;
-    }
-
     .prelude-content {
         font-size: 17px;
     }
@@ -149,20 +153,12 @@ body {
         width: 100%;
     }
 
-    .orgue-title img {
-        width: 100px;
-    }
-
     .orgue-content {
         font-size: 17px;
     }
 
     .mouvement-title {
         width: 100%;
-    }
-
-    .mouvement-title img {
-        width: 100px;
     }
 
     .mouvement-content {

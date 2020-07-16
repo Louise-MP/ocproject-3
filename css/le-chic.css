@@ -8,6 +8,7 @@ body {
 .main-title {
     text-align: center;
 }
+
 .main-title h1 {
     font-family: 'lato', sans-serif;
 }
@@ -39,12 +40,15 @@ body {
     align-items: center;
     color: rgb(187, 119, 48);
 }
+
 .appetit-title img {
     height: 13px;
 }
+
 .appetit-title .band2 {
     transform: scaleX(-1);
 }
+
 .appetit-content {
     width: 86%;
     display: grid;
@@ -63,12 +67,15 @@ body {
     width: 71%;
     margin: auto;
 }
+
 .plaisir-title img {
     height: 15px;
 }
+
 .plaisir-title .band2 {
     transform: scaleX(-1);
 }
+
 .plaisir-content {
     width: 86%;
     display: grid;
@@ -88,12 +95,15 @@ body {
     margin: auto;
 
 }
+
 .gourmandise-title img {
     height: 14px;
 }
+
 .gourmandise-title .band2 {
     transform: scaleX(-1);
 }
+
 .gourmandise-content {
     width: 68%;
     margin: auto;
