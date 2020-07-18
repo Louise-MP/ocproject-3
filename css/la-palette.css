@@ -45,6 +45,10 @@ body {
     transform: scaleX(-1);
 }
 
+.esquisse-title img {
+    width: 313px;
+}
+
 .esquisse-content {
     width: 65%;
     display: grid;
@@ -65,6 +69,10 @@ body {
     margin: auto;
     font-family: 'Nunito', sans-serif;
 
+}
+
+.oeuvre-title img {
+    width: 313px;
 }
 
 .oeuvre-title .band2 {
@@ -90,6 +98,10 @@ body {
     margin: auto;
     align-items: center;
     font-family: 'Nunito', sans-serif;
+}
+
+.sommet-title img {
+    width: 313px;
 }
 
 .sommet-title .band2 {
@@ -127,28 +139,37 @@ body {
         width: 96%;
     }
 
+    .esquisse-title img {
+        width: 100px;
+    }
+
     .esquisse-content {
         font-size: 17px;
-        grid-template-columns: 100% 7%;
-    }
+        grid-template-columns: 73% 7%;    }
 
     .oeuvre-title {
         width: 96%;
     }
 
+    .oeuvre-title img {
+        width: 100px;
+    }
+
     .oeuvre-content {
         font-size: 17px;
-        grid-template-columns: 94% 7%;
-    }
+        grid-template-columns: 73% 7%;    }
 
     .sommet-title {
         width: 96%;
     }
 
+    .sommet-title img {
+        width: 100px;
+    }
+
     .sommet-content {
         font-size: 17px;
-        grid-template-columns: 94% 7%;
-    }
+        grid-template-columns: 73% 7%;    }
 }
 
 @media screen and (max-width: 1024px) {
