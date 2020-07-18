@@ -23,6 +23,7 @@ body {
     box-shadow: 0px 0px 13px grey;
 }
 
+
 .title {
     text-align: center;
 }
@@ -48,6 +49,10 @@ body {
     margin: auto;
 }
 
+.prelude img {
+    width: 313px;
+}
+
 .prelude-title .band2 {
     transform: scaleX(-1);
 }
@@ -55,7 +60,7 @@ body {
 .prelude-content {
     width: 86%;
     display: grid;
-    grid-template-columns: 72% 7%;
+    grid-template-columns: 72% 4%;
     justify-content: space-around;
     margin: auto;
     font-family: 'Nunito', sans-serif;
@@ -74,8 +79,8 @@ body {
     margin: auto;
 }
 
-.orgue-title img {
-    width: 245px;
+.orgue img {
+    width: 313px;
 }
 
 .orgue-title .band2 {
@@ -85,7 +90,7 @@ body {
 .orgue-content {
     width: 86%;
     display: grid;
-    grid-template-columns: 72% 7%;
+    grid-template-columns: 72% 4%;
     justify-content: space-around;
     margin: auto;
     font-family: 'Nunito', sans-serif;
@@ -104,8 +109,8 @@ body {
     margin: auto;
 }
 
-.mouvement-title img {
-    width: 245px;
+.mouvement img {
+    width: 313px;
 }
 
 .mouvement-content {
@@ -145,33 +150,35 @@ body {
         width: 100%;
     }
 
-    .prelude-title img {
+    .prelude img {
         width: 100px;
     }
 
     .prelude-content {
         font-size: 17px;
+        grid-template-columns: 72% 12%;
     }
 
     .orgue-title {
         width: 100%;
     }
 
-    .orgue-title img {
-        width: 100px;    }
+    .orgue img {
+        width: 100px;
+    }
 
     .orgue-content {
         font-size: 17px;
+        grid-template-columns: 72% 12%;
     }
 
     .mouvement-title {
         width: 100%;
     }
 
-    .mouvement-title img {
+    .mouvement img {
         width: 100px;
-        }
-
+    }
 
     .mouvement-content {
         font-size: 17px;
@@ -187,10 +194,6 @@ body {
         width: 100%;
     }
 
-    .prelude-title img {
-        width: 295px;
-    }
-
     .prelude-content {
         width: 100%;
     }
@@ -199,20 +202,12 @@ body {
         width: 100%;
     }
 
-    .orgue-title img {
-        width: 295px;
-    }
-
     .orgue-content {
         width: 100%;
     }
 
     .mouvement-title {
         width: 100%;
-    }
-
-    .mouvement-title img {
-        width: 295px;
     }
 
     .mouvement-content {
