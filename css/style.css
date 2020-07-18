@@ -199,6 +199,36 @@ button {
     background-color: rgb(103, 154, 136);
 }
 
+button:after {
+  content: ' .';
+  animation: dots 1s steps(5, end) infinite;
+}
+
+@keyframes dots {
+    0%, 20% {
+        color: rgba(245, 203, 95);
+        text-shadow:
+          .25em 0 0 rgba(245, 203, 95),
+          .5em 0 0 rgba(245, 203, 95);}
+      40% {
+        color: white;
+        text-shadow:
+          .25em 0 0 rgba(245, 203, 95),
+          .5em 0 0 rgba(245, 203, 95);}
+      60% {
+        text-shadow:
+          .25em 0 0 white,
+          .5em 0 0 rgba(245, 203, 95);}
+      80%, 100% {
+        text-shadow:
+          .25em 0 0 rgb(245, 203, 95),
+          .5em 0 0 white;}}
+}
+
+content {
+    width: 200px;
+} 
+
 /* footer */
 
 @media screen and (max-width: 767px) {
