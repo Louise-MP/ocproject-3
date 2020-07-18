@@ -28,7 +28,9 @@ body {
 }
 
 .title h2 {
-    color: rgb(187, 119, 48);
+    background: -webkit-linear-gradient(0deg, #cc6410 0% 30%, #a45be9, #905BFD);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .appetit-title {

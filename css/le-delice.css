@@ -25,9 +25,11 @@ body {
 }
 
 .title h2 {
-    color: rgb(28, 99, 229);
     font-family: 'Dancing Script', cursive;
     font-size: 50px;
+    background: -webkit-linear-gradient(360deg, #0e0eac, #67aef1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
 }
 
 .commencer-title {

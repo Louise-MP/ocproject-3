@@ -25,9 +25,11 @@ body {
 }
 
 .title h2 {
-    color: rgb(128, 183, 97);
     font-family: 'Rancho', sans-serif;
     font-size: 50px;
+    background: -webkit-linear-gradient(360deg, #52A445, #BEFF7F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .esquisse-title {
