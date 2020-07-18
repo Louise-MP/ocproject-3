@@ -41,10 +41,6 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
-.esquisse-title img {
-    height: 13px;
-}
-
 .esquisse-title .band2 {
     transform: scaleX(-1);
 }
@@ -71,10 +67,6 @@ body {
 
 }
 
-.oeuvre-title img {
-    height: 13px;
-}
-
 .oeuvre-title .band2 {
     transform: scaleX(-1);
 }
@@ -98,10 +90,6 @@ body {
     margin: auto;
     align-items: center;
     font-family: 'Nunito', sans-serif;
-}
-
-.sommet-title img {
-    height: 13px;
 }
 
 .sommet-title .band2 {
@@ -139,10 +127,6 @@ body {
         width: 96%;
     }
 
-    .esquisse-title img {
-        width: 100px;
-    }
-
     .esquisse-content {
         font-size: 17px;
         grid-template-columns: 100% 7%;
@@ -152,10 +136,6 @@ body {
         width: 96%;
     }
 
-    .oeuvre-title img {
-        width: 100px;
-    }
-
     .oeuvre-content {
         font-size: 17px;
         grid-template-columns: 94% 7%;
@@ -163,10 +143,6 @@ body {
 
     .sommet-title {
         width: 96%;
-    }
-
-    .sommet-title img {
-        width: 100px;
     }
 
     .sommet-content {
@@ -179,11 +155,7 @@ body {
     .esquisse-title {
         width: 95%;
     }
-
-    .esquisse-title img {
-        width: 200px;
-    }
-
+    
     .esquisse-content {
         width: 100%;
     }
@@ -192,20 +164,12 @@ body {
         width: 95%;
     }
 
-    .oeuvre-title img {
-        width: 200px;
-    }
-
     .oeuvre-content {
         width: 100%;
     }
 
     .sommet-title {
         width: 95%;
-    }
-
-    .sommet-title img {
-        width: 200px;
     }
 
     .sommet-content {

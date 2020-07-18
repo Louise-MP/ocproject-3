@@ -32,13 +32,17 @@ body {
 }
 
 .appetit-title {
-    width: 71%;
+    width: 86%;
     margin: auto;
     text-align: center;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: rgb(187, 119, 48);
+}
+
+.appetit-title img {
+    width: 313px;
 }
 
 .appetit-title .band2 {
@@ -60,8 +64,12 @@ body {
     justify-content: space-around;
     color: rgb(156, 107, 150);
     align-items: center;
-    width: 71%;
+    width: 86%;
     margin: auto;
+}
+
+.plaisir-title img {
+    width: 313px;
 }
 
 .plaisir-title .band2 {
@@ -78,13 +86,17 @@ body {
 }
 
 .gourmandise-title {
+    width: 86%;
     text-align: center;
     display: flex;
     justify-content: space-around;
     color: rgb(104, 82, 196);
     align-items: center;
-    width: 76%;
     margin: auto;
+}
+
+.gourmandise-title img {
+    width: 313px;
 }
 
 .gourmandise-title .band2 {
