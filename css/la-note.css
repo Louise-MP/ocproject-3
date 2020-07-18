@@ -145,6 +145,10 @@ body {
         width: 100%;
     }
 
+    .prelude-title img {
+        width: 100px;
+    }
+
     .prelude-content {
         font-size: 17px;
     }
@@ -152,6 +156,9 @@ body {
     .orgue-title {
         width: 100%;
     }
+
+    .orgue-title img {
+        width: 100px;    }
 
     .orgue-content {
         font-size: 17px;
@@ -161,18 +168,27 @@ body {
         width: 100%;
     }
 
+    .mouvement-title img {
+        width: 100px;
+        }
+
+
     .mouvement-content {
         font-size: 17px;
     }
 }
 
 @media screen and (max-width: 1024px) {
+    .main-container {
+        width: 97%;
+    }
+    
     .prelude-title {
         width: 100%;
     }
 
     .prelude-title img {
-        width: 200px;
+        width: 295px;
     }
 
     .prelude-content {
@@ -184,7 +200,7 @@ body {
     }
 
     .orgue-title img {
-        width: 200px;
+        width: 295px;
     }
 
     .orgue-content {
@@ -196,7 +212,7 @@ body {
     }
 
     .mouvement-title img {
-        width: 200px;
+        width: 295px;
     }
 
     .mouvement-content {
