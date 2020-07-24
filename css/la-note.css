@@ -49,6 +49,11 @@ body {
     margin: auto;
 }
 
+h3:hover
+{
+    text-decoration: underline;
+}
+
 .prelude img {
     width: 313px;
 }
