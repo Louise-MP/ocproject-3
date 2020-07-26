@@ -43,6 +43,28 @@ body {
     color: rgb(187, 119, 48);
 }
 
+.appetit-title h3 {
+    position: relative;
+    transition: .5s;
+}
+
+.appetit-title h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: rgb(187, 119, 48);
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.appetit-title h3:hover:after {
+    transform: scaleX(1);
+}
+
 .appetit-title img {
     width: 313px;
 }
@@ -70,6 +92,28 @@ body {
     margin: auto;
 }
 
+.plaisir-title h3 {
+    position: relative;
+    transition: .5s;
+}
+
+.plaisir-title h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: rgb(156, 107, 150);
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.plaisir-title h3:hover:after {
+    transform: scaleX(1);
+}
+
 .plaisir-title img {
     width: 313px;
 }
@@ -95,6 +139,28 @@ body {
     color: rgb(104, 82, 196);
     align-items: center;
     margin: auto;
+}
+
+.gourmandise-title h3 {
+    position: relative;
+    transition: .5s;
+}
+
+.gourmandise-title h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: rgb(104, 82, 196);
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.gourmandise-title h3:hover:after {
+    transform: scaleX(1);
 }
 
 .gourmandise-title img {

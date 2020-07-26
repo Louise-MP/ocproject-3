@@ -43,6 +43,28 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.esquisse-title h3 {
+    position: relative;
+    transition: .5s;
+} 
+
+.esquisse-title h3::after {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: #000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.esquisse-title h3:hover:after {
+    transform: scaleX(1);
+}
+
 .esquisse-title .band2 {
     transform: scaleX(-1);
 }
@@ -70,7 +92,28 @@ body {
     width: 90%;
     margin: auto;
     font-family: 'Nunito', sans-serif;
+}
 
+.oeuvre-title h3 {
+    position: relative;
+    transition: .5s;
+} 
+
+.oeuvre-title h3::after {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: #000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.oeuvre-title h3:hover:after {
+    transform: scaleX(1);
 }
 
 .oeuvre-title img {
@@ -100,6 +143,28 @@ body {
     margin: auto;
     align-items: center;
     font-family: 'Nunito', sans-serif;
+}
+
+.sommet-title h3 {
+    position: relative;
+    transition: .5s;
+} 
+
+.sommet-title h3::after {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: #000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.sommet-title h3:hover:after {
+    transform: scaleX(1);
 }
 
 .sommet-title img {
