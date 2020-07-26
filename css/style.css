@@ -31,8 +31,8 @@ body {
 
 .la-note .menu-content a {
     display: flex;
-    /* height: 100%; */
-    /* width: 100%; */
+    height: 100%;
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -58,6 +58,10 @@ body {
     font-size: 27px;
     text-transform: uppercase;
     font-style: italic;   
+}
+
+.la-note:hover .menu-content {
+    transform: scale(1.2);
 }
 
 .le-chic {
@@ -97,6 +101,10 @@ body {
     font-size: 27px;
 }
 
+.le-chic:hover .menu-content {
+    transform: scale(1.2);
+}
+
 .le-delice {
     height: 550px;
     background-color: rgb(249, 249, 249);
@@ -134,7 +142,10 @@ body {
     text-align: center;
     font-family: 'Kalam', cursive;
     color: #4478cf;
+}
 
+.le-delice:hover .menu-content {
+    transform: scale(1.2);
 }
 
 .la-palette {
@@ -173,6 +184,10 @@ body {
     font-size: 27px;
 }
 
+.la-palette:hover .menu-content {
+    transform: scale(1.2);
+}
+
 .menu-content {
     display: flex;
     flex-direction: column;
@@ -183,14 +198,6 @@ body {
     transition: .4s;
 }
 
-.la-note:hover .menu-content {
-    transform: scale(1.2);
-}
-
-/* .menu-content:hover
-{
-    transform: scale(1.5);
-} */
 
 /* button */
 
