@@ -23,7 +23,6 @@ body {
     box-shadow: 0px 0px 13px grey;
 }
 
-
 .title {
     text-align: center;
 }
@@ -49,9 +48,26 @@ body {
     margin: auto;
 }
 
-h3:hover
-{
-    text-decoration: underline;
+.prelude-title h3 {
+    position: relative;
+    transition: .5s;
+} 
+
+.prelude-title h3::after {
+    content:"";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: #000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.prelude-title h3:hover:after {
+    transform: scaleX(1);
 }
 
 .prelude img {
@@ -59,7 +75,8 @@ h3:hover
 }
 
 .prelude-title .band2 {
-    transform: scaleX(-1);
+    transform: rotate(180deg);
+    transform-origin: revert;
 }
 
 .prelude-content {
@@ -82,6 +99,28 @@ h3:hover
     align-items: center;
     width: 82%;
     margin: auto;
+}
+
+.orgue-title h3 {
+    position: relative;
+    transition: .5s;
+}
+
+.orgue-title h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: #000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.orgue-title h3:hover:after {
+    transform: scaleX(1);
 }
 
 .orgue img {
@@ -112,6 +151,28 @@ h3:hover
     align-items: center;
     width: 82%;
     margin: auto;
+}
+
+.mouvement-title h3 {
+    position: relative;
+    transition: .5s;
+}
+
+.mouvement-title h3::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 30px;
+    left: 0;
+    background: #000;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.mouvement-title h3:hover:after {
+    transform: scaleX(1);
 }
 
 .mouvement img {
