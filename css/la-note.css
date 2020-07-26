@@ -138,6 +138,11 @@ h3:hover
     padding: 10px;
 }
 
+footer > a:hover
+{
+    animation: shake 0.5s infinite;
+}
+
 @media screen and (max-width: 767px) {
     .main-title {
         margin-bottom: 30px;
