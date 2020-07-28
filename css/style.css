@@ -63,6 +63,7 @@ body {
 
 .la-note:hover .menu-content {
     transform: scale(1.2);
+    opacity: 0.6;
 }
 
 .le-chic {
@@ -105,6 +106,7 @@ body {
 
 .le-chic:hover .menu-content {
     transform: scale(1.2);
+    opacity: 0.6;
 }
 
 .le-delice {
@@ -149,6 +151,7 @@ body {
 
 .le-delice:hover .menu-content {
     transform: scale(1.2);
+    opacity: 0.6;
 }
 
 .la-palette {
@@ -190,6 +193,7 @@ body {
 
 .la-palette:hover .menu-content {
     transform: scale(1.2);
+    opacity: 0.6;
 }
 
 .menu-content {
@@ -219,6 +223,7 @@ button {
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
+    cursor: pointer;
 }
 
 .dots {
