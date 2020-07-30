@@ -45,7 +45,6 @@ body {
 
 .esquisse-title h3 {
     position: relative;
-    transition: .5s;
 } 
 
 .esquisse-title h3::after {
@@ -96,7 +95,6 @@ body {
 
 .oeuvre-title h3 {
     position: relative;
-    transition: .5s;
 } 
 
 .oeuvre-title h3::after {
@@ -147,7 +145,6 @@ body {
 
 .sommet-title h3 {
     position: relative;
-    transition: .5s;
 } 
 
 .sommet-title h3::after {

@@ -45,7 +45,6 @@ body {
 
 .appetit-title h3 {
     position: relative;
-    transition: .5s;
 }
 
 .appetit-title h3::after {
@@ -94,7 +93,6 @@ body {
 
 .plaisir-title h3 {
     position: relative;
-    transition: .5s;
 }
 
 .plaisir-title h3::after {
@@ -143,7 +141,6 @@ body {
 
 .gourmandise-title h3 {
     position: relative;
-    transition: .5s;
 }
 
 .gourmandise-title h3::after {

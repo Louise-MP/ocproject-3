@@ -50,7 +50,6 @@ body {
 
 .prelude-title h3 {
     position: relative;
-    transition: .5s;
 } 
 
 .prelude-title h3::after {
@@ -103,7 +102,6 @@ body {
 
 .orgue-title h3 {
     position: relative;
-    transition: .5s;
 }
 
 .orgue-title h3::after {
@@ -155,7 +153,6 @@ body {
 
 .mouvement-title h3 {
     position: relative;
-    transition: .5s;
 }
 
 .mouvement-title h3::after {

@@ -5,8 +5,6 @@ body {
     min-height: 100vh;
 }
 
-/* header */
-
 
 /* main container */
 #main-container {
@@ -261,8 +259,8 @@ button {
     }
 }
 
-/* footer */
 
+/* media query */
 
 @media screen and (max-width: 767px) {
      #main-container {

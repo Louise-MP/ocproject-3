@@ -45,7 +45,6 @@ body {
 
 .commencer-title h3 {
     position: relative;
-    transition: .5s;
 } 
 
 .commencer-title h3::after {
@@ -92,7 +91,6 @@ body {
 
 .continuer-title h3 {
     position: relative;
-    transition: .5s;
 } 
 
 .continuer-title h3::after {
@@ -139,7 +137,6 @@ body {
 
 .terminer-title h3 {
     position: relative;
-    transition: .5s;
 } 
 
 .terminer-title h3::after {
