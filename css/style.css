@@ -212,7 +212,7 @@ body {
     margin-bottom: 37px;    
 }
 
-button {
+.button a {
     padding: 7px 45px;
     border: none;
     font-size: 25px;
@@ -222,6 +222,8 @@ button {
     display: flex;
     justify-content: space-around;
     cursor: pointer;
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
 }
 
 .dots {
