@@ -1,6 +1,6 @@
 # ocproject-3 - Oh my food
 Projet 5 - Openclassrooms - Développeur web 
-<em><strong>"Dynamiser une page web avec des animations CSS."</strong></em>
+<em><strong>"Dynamisez une page web avec des animations CSS."</strong></em>
   [Voir le projet sur OpenClassrooms](https://openclassrooms.com/fr/projects/637/assignment)
 <hr>
 
